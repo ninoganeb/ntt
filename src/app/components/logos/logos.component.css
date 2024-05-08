@@ -1,0 +1,11 @@
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .animate-loop-scroll {
+      display: flex; 
+      flex-wrap: nowrap; 
+      animation: scroll 30s linear infinite;
+  }
+  

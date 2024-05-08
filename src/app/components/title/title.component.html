@@ -1,0 +1,274 @@
+<div id="carousel-example" class="relative w-full" style="height: 760px; z-index: 1;">
+    <!-- Carousel wrapper -->
+    <div
+        class="relative h-full overflow-hidden"
+    >
+        <!-- Item 1 -->
+        <div id="carousel-item-1" class="hidden duration-700 ease-in-out">
+            <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-full text-white overflow-hidden">
+                <div class="absolute inset-0">
+                  <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background Image" class="object-cover object-center w-full h-full" />
+                  <div class="absolute inset-0 bg-black opacity-50"></div>
+                </div>
+                
+                <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
+                  <h1 class="text-5xl font-bold leading-tight mb-4">Welcome to Our Awesome Website</h1>
+                  <p class="text-lg text-gray-300 mb-8">Discover amazing features and services that await you.</p>
+                  <a (click)="scrollToComponent('contact')" class="bg-yellow-400 text-gray-900 cursor-pointer hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
+                </div>
+              </div>              
+        </div>
+        <!-- Item 2 -->
+        <div id="carousel-item-2" class="hidden duration-700 ease-in-out">
+                <div class="flex justify-center items-center">
+                    <div class="items-center">
+                        <div class="h-full my-20">
+                            <img src="./assets/img/groupPhoto.jpg">
+                            <div class="absolute inset-0 bg-black opacity-50"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>>
+        <!-- Item 3 -->
+        <div id="carousel-item-3" class="hidden duration-700 ease-in-out">
+            <section class=" h-full flex flex-col justify-center items-center aspect-w-16 aspect-h-9">
+                    <div class="my-16 lg:my-28 flex items-center justify-center">
+                        <div class="bg-gray-700">
+                            <div class="items-center">
+                                <div class="grid grid-cols-1 container lg:grid-cols-2 items-center justify-center" >
+                                    <div class="xl:ml-20">
+                                        <img src="./assets/img/bolttt.png" class="w-full"/>
+                                    </div>
+                                    <div class="p-5 sm:items-center flex flex-col gap-5">
+                                        <div class="text-custom-primary font-bold text-4xl">BOLT Point-of-Sale System</div>
+                                        <p class="text-white text-lg">The BOLT Point-of-Sale System streamlines sales, purchases, and inventory management, providing valuable insights for informed decision-making.</p>
+                                        <button (click)="scrollToSection('bolt')" class="px-6 py-2 min-w-[120px] text-center text-white bg-sky-800 border border-sky-800 rounded active:text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring">
+                                            Know more
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="area">
+                        <ul class="circles">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+            </section>
+        </div>
+        <!-- Item 4 -->
+        <div id="carousel-item-4" class="hidden duration-700 ease-in-out">
+            <section class="h-full flex flex-col justify-center items-center aspect-w-16 aspect-h-9">
+                <div class="my-16 lg:my-28 flex items-center justify-center">
+                    <div class="bg-gray-700">
+                        <div class="items-center">
+                            <div class="grid grid-cols-1 container lg:grid-cols-2 items-center justify-center">
+                                <div class="xl:ml-20">
+                                    <img src="./assets/img/1_dash.png" class="w-full"/>
+                                </div>
+                                <div class="p-5 sm:items-center flex flex-col gap-5">
+                                    <div class="text-custom-primary font-bold text-4xl ">Dine and Service Hub</div>
+                                    <p class="text-white text-lg">DASH optimizes restaurant operations with tailored modules for chefs, kitchen staff, administrators, and cashiers, enhancing efficiency and streamlining management.</p>
+                                    <button (click)="scrollToSection('dash')" class="px-6 py-2 min-w-[120px] text-center text-white bg-sky-800 border border-sky-800 rounded active:text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring">
+                                        Know more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area">
+                    <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Item 5 -->
+        <div id="carousel-item-5" class="hidden duration-700 ease-in-out">
+            <section class="h-full flex flex-col justify-center items-center aspect-w-16 aspect-h-9">
+                <div class="my-16 lg:my-28 flex items-center justify-center">
+                    <div class="bg-gray-700">
+                        <div class="items-center">
+                            <div class="grid grid-cols-1 container lg:grid-cols-2 items-center justify-center aos-init aos-animate" >
+                                <div class="xl:ml-20">
+                                    <img src="./assets/img/3_hush.png" class="w-full"/>
+                                </div>
+                                <div class="p-5 sm:items-center flex flex-col gap-5">
+                                    <div class="text-custom-primary font-bold text-4xl ">Hotel Utility and Service Hub</div>
+                                    <p class="text-white text-lg">HUSH revolutionizes hotel management by seamlessly handling room reservations, occupancy, and guest experiences, optimizing operations and ensuring exceptional stays for all guests.</p>
+                                    <button (click)="scrollToSection('hush')" class="px-6 py-2 min-w-[120px] text-center text-white bg-sky-800 border border-sky-800 rounded active:text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring">
+                                        Know more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area">
+                    <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- item 6 -->
+        <div id="carousel-item-6" class="hidden duration-700 ease-in-out">
+            <section class="h-full flex flex-col justify-center items-center aspect-w-16 aspect-h-9">
+                <div class="my-16 lg:my-28 flex items-center justify-center">
+                    <div class="bg-gray-700">
+                        <div class="items-center">
+                            <div class="grid grid-cols-1 container lg:grid-cols-2 items-center justify-center aos-init aos-animate" >
+                                <div class="xl:ml-20">
+                                    <img src="./assets/img/4_membership.png" class="w-full"/>
+                                </div>
+                                <div class="p-5 sm:items-center flex flex-col gap-5">
+                                    <div class="text-custom-primary font-bold text-4xl ">Hotel Utility and Service Hub</div>
+                                    <p class="text-white text-lg">MembershipHub offers a user-friendly interface and robust functionality to simplify membership management, allowing for enhanced member experiences and streamlined administrative tasks, fostering a thriving community.</p>
+                                    <button (click)="scrollToSection('membership')" class="px-6 py-2 min-w-[120px] text-center text-white bg-sky-800 border border-sky-800 rounded active:text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring">
+                                        Know more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area">
+                    <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+         <!-- Item 7 -->
+         <div id="carousel-item-7" class="hidden duration-700 ease-in-out">
+            <section class="h-full flex flex-col justify-center items-center aspect-w-16 aspect-h-9">
+                <div class="my-16 lg:my-28 flex items-center justify-center">
+                    <div class="bg-gray-700">
+                        <div class="items-center">
+                            <div class="grid grid-cols-1 container lg:grid-cols-2 items-center justify-center" >
+                                <div class="xl:ml-20">
+                                    <img src="./assets/img/pdrt.png" class="w-full"/>
+                                </div>
+                                <div class="p-5 sm:items-center flex flex-col gap-5">
+                                    <div class="text-custom-primary font-bold text-4xl">Pre-Done Responsive Theme</div>
+                                    <p class="text-white text-lg">Elevate your online presence effortlessly with our Pre-Done Responsive Theme Website, empowering individuals and businesses to create stunning websites with style and sophistication.</p>
+                                    <button (click)="scrollToSection('pdrt')" class="px-6 py-2 min-w-[120px] text-center text-white bg-sky-800 border border-sky-800 rounded active:text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring">
+                                        Know more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area">
+                    <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    
+       
+    <!-- Slider controls -->
+    <button
+        id="data-carousel-prev"
+        type="button"
+        class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+        (click)="prev()"
+    >
+        <span
+            class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70" 
+        >
+            <svg
+                class="h-4 w-4 text-white dark:text-gray-800"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+            >
+                <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 1 1 5l4 4"
+                />
+            </svg>
+            <span class="hidden">Previous</span>
+        </span>
+    </button>
+    <button
+        id="data-carousel-next"
+        type="button"
+        class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+        (click)="next()"
+    >
+        <span
+            class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70"
+        >
+            <svg
+                class="h-4 w-4 text-white dark:text-gray-800"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+            >
+                <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 9 4-4-4-4"
+                />
+            </svg>
+            <span class="hidden">Next</span>
+        </span>
+    </button>
+</div>
